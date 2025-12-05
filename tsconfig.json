@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",              // versão do JS gerado
+    "module": "commonjs",            // padrão para Node.js
+    "rootDir": "src",                // onde estão seus arquivos .ts
+    "outDir": "dist",                // onde vão os compilados .js
+    "strict": true,                  // ativa checagens mais rígidas
+    "esModuleInterop": true,         // permite importar libs comuns
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true
+  },
+  "include": ["src"],                // compila apenas o código dentro de src/
+  "exclude": ["node_modules", "dist"] // ignora essas pastas
+}
